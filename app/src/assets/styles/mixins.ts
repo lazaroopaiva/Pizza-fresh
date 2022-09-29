@@ -25,7 +25,6 @@ const bodyStyle = () => css`
 `;
 
 // Configuração para o overlay 
-// (a "película" que escurece a tela para destacar os modais)
 const overlay = () => css`
   background: rgb(0, 0, 0, 0.6);
 `;
