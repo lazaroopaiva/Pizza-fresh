@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { RoutePath } from 'types/routes';
 import Home from "pages/Home/index";
 import Login from "pages/Login";
+import Settings from "pages/Settings";
 
 const Router = () => {
     return (
