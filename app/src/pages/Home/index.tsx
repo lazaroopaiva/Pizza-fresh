@@ -2,10 +2,12 @@ import * as S from "./style";
 import Menu from "components/Menu";
 import ProductItemList from "components/ProductItemList";
 import ProductItem from "components/ProductItem";
+import OrderDetails from "components/OrderDetails";
 import { ReactComponent as Search } from "assets/icons/search.svg";
 import { DateTime } from "luxon";
 import { RoutePath } from "types/routes";
 import { navigationItems } from "data/navigation";
+import Overlay from "components/Overlay";
 
 const Home = () => {
 
@@ -47,8 +49,11 @@ const Home = () => {
         </div>
       </S.HomeContent>
       <aside>
-        <p>Detalhes dos pedidos aqui</p>
+      <OrderDetails />
       </aside>
+      <Overlay>
+        
+      </Overlay>
     </S.Home>
   );
 };
