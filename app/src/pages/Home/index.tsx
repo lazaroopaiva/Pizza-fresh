@@ -8,6 +8,7 @@ import { DateTime } from "luxon";
 import { RoutePath } from "types/routes";
 import { navigationItems } from "data/navigation";
 import Overlay from "components/Overlay";
+import CheckoutSection from "../../components/CheckoutSection";
 
 const Home = () => {
 
@@ -52,7 +53,7 @@ const Home = () => {
       <OrderDetails />
       </aside>
       <Overlay>
-        
+      <CheckoutSection />
       </Overlay>
     </S.Home>
   );
