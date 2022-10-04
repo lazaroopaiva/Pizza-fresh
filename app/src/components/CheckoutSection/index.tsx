@@ -1,5 +1,5 @@
 import CheckboxIcon from "components/CheckboxIcon";
-
+import OrderConfirmation from "components/OrderConfirmation";
 
 import { ReactComponent as Card } from "assets/icons/credit-card.svg";
 import { ReactComponent as Cash } from "assets/icons/wallet.svg";
@@ -10,7 +10,7 @@ const CheckoutSection = () => {
     <S.CheckoutSection closing={false}>
       <S.CheckoutSectionConfirmation>
         <S.BackIcon />
-        {"Componente OrderConfirmation"}
+        <OrderConfirmation />
       </S.CheckoutSectionConfirmation>
       <S.CheckoutSectionPayment>
         <S.CheckoutSectionPaymentHead>Pagamento</S.CheckoutSectionPaymentHead>
