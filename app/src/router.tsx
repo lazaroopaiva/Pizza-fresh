@@ -1,9 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import { RoutePath } from "types/routes";
-
+import Home from "pages/Home/index";
 import Login from "pages/Login";
 import Settings from "pages/Settings";
-
 import ManageProducts from "components/ManageProducts";
 
 const Router = () => {
@@ -17,3 +16,4 @@ const Router = () => {
 };
 
 export default Router;
+
